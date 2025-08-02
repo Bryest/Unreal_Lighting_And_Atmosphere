@@ -1,0 +1,63 @@
+# Ignore everything by default
+*
+!*/
+
+# Always keep Git-related files
+!/.git*
+
+# Keep project file
+!/*.uproject
+
+# Keep source code, config, plugins
+!/Source/**
+!/Config/**
+!/Plugins/**
+
+# Content: Only keep assets (use LFS)
+!/Content/**/*.uasset
+!/Content/**/*.umap
+
+# RawContent: Keep all files (use LFS)
+!/RawContent/**
+
+# 🔥 Ignore build-generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE project files (auto-generated)
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vs/
+
+# Logs and backups
+*.log
+*.tlog
+*.autosave
+*.backup
+
+# OS/platform files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.directory
+*~
+
+# Vim swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist

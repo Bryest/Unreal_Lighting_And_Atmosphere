@@ -2,6 +2,7 @@
 *
 !*/
 !/*.md
+!/Images/**
 
 # Always keep Git-related files
 !/.git*

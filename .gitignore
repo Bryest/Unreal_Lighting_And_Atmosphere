@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 !*/
+!/*.md
 
 # Always keep Git-related files
 !/.git*
